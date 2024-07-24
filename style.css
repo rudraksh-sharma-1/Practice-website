@@ -1,0 +1,149 @@
+.image {
+    width: 100%;
+    height: 350px;
+}
+
+.cards{
+    height: 260px;
+    width: 250px;
+}
+
+.SlideIn{
+    height: 280px;
+}
+
+#root{
+    background-color: rgb(255, 255, 255);
+}
+
+.under{
+    height: 300px;
+    width: 200px;
+}
+
+.Footer{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.linkbox{
+    width: 250px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footerimg{
+    height: 40px;
+    width: 45px;
+    padding: 5px;
+    transition: all;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+}
+.footerimg:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.my-cart{
+    height: 518px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.my-cart a{
+    text-decoration: underline;
+    color: black;
+}
+
+.my-cart img{
+    height: 200px;
+    width: 200px;
+    margin-right: 25px;
+}
+
+/* Discover File CSS */
+.Discover-box{
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Left-side Inner Div CSS */
+.left-sight-box{
+    height: 200px;
+    width: 420px;
+    background-color: rgb(74, 125, 111);
+    margin-top: 30px; margin-bottom: 30px;
+    display: flex;
+    border-radius: 0 90px 90px 0;
+}
+
+/* Right-side Inner Div CSS */
+.right-sight-box{
+    height: 200px;
+    width: 420px;
+    background-color: rgb(74, 125, 111);
+    margin-top: 30px; margin-bottom: 30px;
+    display: flex;
+    border-radius: 90px 0  0 90px;
+    align-self: flex-end;
+}
+
+/* Text-Section-CSS */
+.text-section{
+    width: 250px;
+    height: 100%;
+    /* border: 2px solid white; */
+    text-align: left;
+}
+ 
+.text-section h5, .text-section p {
+    margin-left: 5px; 
+} 
+
+.text-section h5{
+    text-decoration: underline;
+}
+
+/* Left-Side Image Section CSS */
+.left-side-img-section{
+    width: 150px;
+    height: 100%;
+    /* border: 2px solid white; */
+    border-radius: 0 90px 90px 0;
+}
+
+/* Right-Side Image Section CSS */
+.right-side-img-section{
+    width: 150px;
+    height: 100%;
+    /* border: 2px solid white; */
+    border-radius: 90px 0  0 90px;
+}
+
+/* Both-side Image Section CSS */
+.right-side-img-section img{
+    object-fit: cover;
+    margin-top: 20px;
+}
+.left-side-img-section img{
+    object-fit: cover;
+    margin-top: 20px;
+}
